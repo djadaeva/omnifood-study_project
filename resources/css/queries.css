@@ -1,0 +1,35 @@
+/* Big tablet to 1200px widths smaller that the 1140 row */
+@media only screen and (max-width: 1200px) {
+    .hero-text-boox {
+        width: 100%;
+        padding: 0 10%;
+    }
+    .row {padding: 0 2%;}
+}
+/* Small tabletto big tablet from 768 to 1023 */
+@media only screen and (max-width: 1023px) {
+    body{ font-size: 18px;}
+    section { padding: 60px 0;}
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .steps-box { margin-top: 10px; }
+    .steps-box:first-child { margin-top: 10px; }
+    .steps-box:last-child {
+        width: 40%;
+        padding-left: 0.1%;
+    }
+    .work-steps { margin-bottom: 40px;}
+    .work-steps:last-of-type { margin-bottom: 60px; }
+    .app-screen {width: 50%;}
+    
+}
+/* Small phones to smalll tablets : from 481px to 767px */
+@media only screen and (max-width: 767px) {
+
+}
+/* Small phones from 0 to 480px */
+@media only screen and (max-width: 480px) {
+
+}
